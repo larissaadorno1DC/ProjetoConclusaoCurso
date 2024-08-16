@@ -10,7 +10,9 @@
 
 ## Pré-requisitos
 ## Instalando Caramel
+
 ## Usando Caramel
+O aplicativo ofecerá uma interface amigável 
 
 
 ## Time Scrum
