@@ -4,7 +4,10 @@
 ## Introdução
    O nosso projeto de conlcusão de curso é um web-app de adoção e patrocinio de gatos.
 
-## Ajustes e melhorias
+
+
+
+
 ## Pré-requisitos
 ## Instalando Caramel
 ## Usando Caramel
@@ -39,14 +42,24 @@
     </td>
        <td align="center">
       <a href="#">
-        <img src="  <td align="center">
+       <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/131973956?v=4" width="100px;" alt="Foto de Eduardo Marques no GITHUB"/><br>
+        <img src="https://avatars.githubusercontent.com/u/177878367?v=4" width="100px;" alt="Foto de Ana Gabriela no GITHUB"/><br>
         <sub>
           <b>Ana Gabriela</b>
         </sub>
       </a>
-    </td>;"
+    </td>
+       <td align="center">
+      <a href="#">
+        <img src="  <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/131974301?v=4" width="100px;" alt="Foto de Julia Campos  no GITHUB"/><br>
+        <sub>
+          <b>Julia Campos</b>
+        </sub>
+      </a>
+    </td>
 </table>
 
 ## Orientadores
@@ -63,6 +76,15 @@
     <td align="center">
       <a href="[#](https://br.linkedin.com/in/raul-porto-lopes-8a866954)">
         <img src="https://media.licdn.com/dms/image/D4D03AQFlHBg5uIV4XQ/profile-displayphoto-shrink_400_400/0/1693198232860?e=2147483647&v=beta&t=H7VhnZg21yR7XZm8UdVfRAhGSritKeqIcYadOszHl5g"
+         width="100px;" alt="Foto do Raul Porto Lopes"/><br>
+        <sub>
+          <b>Eduardo Marques</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+         <td align="center">
+      <a href=""
          width="100px;" alt="Foto do Raul Porto Lopes"/><br>
         <sub>
           <b>Eduardo Marques</b>
