@@ -65,35 +65,7 @@ O aplicativo ofecerá uma interface amigável
 </table>
 
 ## Orientadores
-   <table>
-  <tr>
-    <td align="center">
-      <a href="[#](https://br.linkedin.com/in/nadjaluz)">
-        <img src="https://media.licdn.com/dms/image/C4D03AQHpfTacHxoqCQ/profile-displayphoto-shrink_200_200/0/1663021740695?e=2147483647&v=beta&t=43i0F3_p-yyPXZI_kWGT5GFJ6x_dSjQMwKhTTNa3xNU" width="100px;" alt="Foto da Nadja Luz"/><br>
-        <sub>
-          <b>Nadja Pereira Luz</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="[#](https://br.linkedin.com/in/raul-porto-lopes-8a866954)">
-        <img src="https://media.licdn.com/dms/image/D4D03AQFlHBg5uIV4XQ/profile-displayphoto-shrink_400_400/0/1693198232860?e=2147483647&v=beta&t=H7VhnZg21yR7XZm8UdVfRAhGSritKeqIcYadOszHl5g"
-         width="100px;" alt="Foto do Raul Porto Lopes"/><br>
-        <sub>
-          <b>Eduardo Marques</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-         <td align="center">
-      <a href=""
-         width="100px;" alt="Foto do Raul Porto Lopes"/><br>
-        <sub>
-          <b>Eduardo Marques</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
+
 </table>
 
 
