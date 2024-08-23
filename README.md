@@ -4,7 +4,8 @@
 ## Introdução
    O nosso projeto de conlcusão de curso é um web-app de adoção e patrocinio de gatos.
 
-
+## Declaração de visão do projeto
+file:///C:/Users/DEV_2ano_2024/Downloads/DECLARA%C3%87%C3%83O%20DE%20VIS%C3%83O%20DE%20PROJETO%20(3).pdf
 
 
 
