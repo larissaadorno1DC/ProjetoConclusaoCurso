@@ -6,9 +6,6 @@
 ## Introdução
    O nosso projeto de conclusão de curso é um web-app de adoção e patrocinio de gatos.
 
-## Declaração de visão do projeto
-acesse: file:///C:/Users/DEV_2ano_2024/Downloads/DECLARA%C3%87%C3%83O%20DE%20VIS%C3%83O%20DE%20PROJETO%20(4).pdf
-
 
 ## Pré-requisitos
 [x] Pesquisas <br>
