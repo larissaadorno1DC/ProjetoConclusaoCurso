@@ -2,7 +2,6 @@
    <img src="https://github.com/user-attachments/assets/bd8cbd76-2bd7-4930-8bde-9e2e8aad0271" width="200px;" alt="exemplo imagem">
 
 
-
 ## Introdução
    O nosso projeto de conclusão de curso é um web-app de adoção e patrocinio de gatos.
 
@@ -12,6 +11,7 @@
 [x] Escolha de um tema <br>
 [x] Design <br>
 [x] Declaração de visão do projeto (problemas, objetivos e etc...) <br>
+[x] Planejamento e Funcionalidades <br>
 [ ] Desenvolver o web app  <br>
 [ ] Desenvolver a documentação
 
