@@ -85,27 +85,7 @@ O aplicativo fornecerá uma interface amigável para que o usuário não tenha d
 
 ## Orientadores
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/108203736?v=4" width="100px;" alt="Foto  no GitHub"/><br>
-        <sub>
-          <b> Nadja Luz</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-     <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/119448571?v=4" width="100px;" alt="Foto  no GitHub"/><br>
-        <sub>
-          <b>Raul Lopes</b>
-        </sub>
-      </a>
-    </td>
-   </table>
+
 
 
 
