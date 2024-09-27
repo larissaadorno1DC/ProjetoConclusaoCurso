@@ -2,27 +2,49 @@
    <img src="https://github.com/user-attachments/assets/bd8cbd76-2bd7-4930-8bde-9e2e8aad0271" width="200px;" alt="exemplo imagem">
 
 
-## Introdução
-   O nosso projeto de conclusão de curso é um web-app de adoção e patrocinio de gatos.
 
+## Introdução 📖
 
-## Pré-requisitos
-[x] Pesquisas <br>
-[x] Escolha de um tema <br>
-[x] Design <br>
-[x] Declaração de visão do projeto (problemas, objetivos e etc...) <br>
-[x] Planejamento e Funcionalidades <br>
-[ ] Desenvolver o web app  <br>
-[ ] Desenvolver a documentação
+O Meowly é um aplicativo web e mobile desenvolvido como projeto de conclusão de curso. Seu objetivo é facilitar a adoção e o patrocínio de gatos, promovendo uma experiência prática e intuitiva para quem deseja adotar ou patrocinar animais de estimação de forma simples e direta.
 
-## Instalando Meowly
-   O aplicativo será disponivel na versão Android e Windows...
+## Pré-requisitos ✔️
+
+ ✅Pesquisas sobre o tema
+ <br>
+ ✅Escolha de um tema adequado
+ <br>
+ ✅Design de interface
+ <br>
+ ✅Declaração de visão do projeto (problemas, objetivos, etc.)
+ <br>
+ ✅Planejamento e definição das funcionalidades
+ <br>
+ [...] Desenvolvimento de aplicativo web
+ <br>
+ [...]Desenvolvimento da documentação
+
+ 
+## Instalando Meowly 📥
+
+   O aplicativo estará disponível nas plataformas Android e Windows . Detalhes sobre o processo de instalação serão fornecidos em breve.
+
+## Usando Meowly 🐈
+
+O Meowly oferece uma interface amigável para que os usuários possam:
+
+   • Cadastro/Login : Fácil registro e login.
    
-## Usando Meowly
-O aplicativo fornecerá uma interface amigável para que o usuário não tenha dificuldades em utilizá-lo. Após realizar o Cadastro/Login, o usuário será direcionado para uma tela inicial oferecendo duas opções: adotar ou patrocinar um pet. Após escolher uma das opções, o sistema levará o usuário para uma tela contendo todos os pets disponíveis para adoção ou patrocínio. Se o usuário optar por adotar, ele poderá finalizar o processo diretamente pelo chat, facilitando a comunicação e o acompanhamento do procedimento. Caso o usuário deseje patrocinar um pet, haverá um botão específico que o direcionará para mais informações sobre como funciona o patrocínio. O app fornecerá uma página de cuidados com os pets para dar dicas aos  adotantes.
+   • Tela Inicial : Escolha entre adotar ou patrocinar um gato.
+   
+   • Adoção : Visualize todos os gatos disponíveis para adoção e finalize o processo diretamente via chat, facilitando a comunicação.
+   
+   • Patrocínio : Descubra como patrocinar um animal de estimação, acessando mais informações sobre o processo.
+   
+   • Dicas de cuidados : Acesse uma página com dicas de cuidados para garantir o bem-estar dos animais de estimação adotados.
+
 
 ## Tecnologias utilizadas
- ![CSS](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+    ![CSS](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
    ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
    ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
    ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
@@ -92,3 +114,5 @@ O aplicativo fornecerá uma interface amigável para que o usuário não tenha d
 
 ## Referências
   O Hyppet é um aplicativo ja existente que permite postagens de cachorros para adoção. Utilizamos ele de referência com o objetivo de o aprimorar criando apenas um app de adoção e patrocinio de gatos.
+
+
