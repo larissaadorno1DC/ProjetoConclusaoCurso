@@ -28,7 +28,7 @@ O Meowly é um aplicativo web e mobile desenvolvido como projeto de conclusão d
 
    O aplicativo estará disponível nas plataformas Android e Windows . Detalhes sobre o processo de instalação serão fornecidos em breve.
 
-## Usando Meowly 🐈
+## Usando Meowly 🐾
 
 O Meowly oferece uma interface amigável para que os usuários possam:
 
