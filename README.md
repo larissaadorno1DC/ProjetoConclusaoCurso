@@ -44,8 +44,9 @@ O Meowly oferece uma interface amigável para que os usuários possam:
 
 
 ## Tecnologias utilizadas
-    ![CSS](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
    ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+   ![CSS](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white).
    ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
    ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
    ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
@@ -61,7 +62,7 @@ O Meowly oferece uma interface amigável para que os usuários possam:
 <table>
   <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/rafaribessi">
         <img src="https://avatars.githubusercontent.com/u/131973673?v=4" width="100px;" alt="Foto  no GitHub"/><br>
         <sub>
           <b>Rafaella Ribessi</b>
@@ -69,7 +70,7 @@ O Meowly oferece uma interface amigável para que os usuários possam:
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/isabellyz">
         <img src="https://avatars.githubusercontent.com/u/131974028?v=4" width="100px;" alt="Foto de Isabelly no GITHUB"/><br>
         <sub>
           <b>Isabelly Andrade</b>
@@ -77,7 +78,7 @@ O Meowly oferece uma interface amigável para que os usuários possam:
       </a>
     </td>
       <td align="center">
-      <a href="#">
+      <a href="https://github.com/edu-smarques">
         <img src="https://avatars.githubusercontent.com/u/131973956?v=4" width="100px;" alt="Foto de Eduardo Marques no GITHUB"/><br>
         <sub>
           <b>Eduardo Marques</b>
@@ -85,9 +86,7 @@ O Meowly oferece uma interface amigável para que os usuários possam:
       </a>
     </td>
        <td align="center">
-      <a href="#">
-       <td align="center">
-      <a href="#">
+      <a href="https://github.com/anagabichiliano">
         <img src="https://avatars.githubusercontent.com/u/177878367?v=4" width="100px;" alt="Foto de Ana Gabriela no GITHUB"/><br>
         <sub>
           <b>Ana Gabriela</b>
@@ -95,9 +94,8 @@ O Meowly oferece uma interface amigável para que os usuários possam:
       </a>
     </td>
        <td align="center">
-      <a href="#">
+      <a href="https://github.com/JuliaCampo">
         <img src="  <td align="center">
-      <a href="#">
         <img src="https://avatars.githubusercontent.com/u/131974301?v=4" width="100px;" alt="Foto de Julia Campos  no GITHUB"/><br>
         <sub>
           <b>Julia Campos</b>
@@ -108,8 +106,26 @@ O Meowly oferece uma interface amigável para que os usuários possam:
 
 ## Orientadores
 
-
-
+<table>
+   <td align="center">
+      <a href= "https://github.com/NadLuz?tab=following">
+         <img src="https://avatars.githubusercontent.com/u/108203736?v=4" width="100px;" alt="Foto de Nadja Luz  no GITHUB"/>
+         <br>
+         <sub>
+            <b> Nadja Luz </b>
+         </sub>
+      </a>
+   </td>
+     <td>
+      <a href= "https://github.com/raulportolopes">
+         <img src="https://avatars.githubusercontent.com/u/119448571?v=4" width="100px;" alt="Foto de Raul Lopes  no GITHUB"/>
+         <br>
+         <sub>
+            <b> Raul Lopes </b>
+         </sub>
+      </a>
+   </td>
+</table>
 
 
 ## Referências
