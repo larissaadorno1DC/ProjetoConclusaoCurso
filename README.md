@@ -59,7 +59,7 @@ O Meowly oferece uma interface amigável para que os usuários possam:
 
 
 
-## Time Scrum
+## Time Scrum 👥
 <table>
   <tr>
     <td align="center">
@@ -104,7 +104,7 @@ O Meowly oferece uma interface amigável para que os usuários possam:
    </td>
 </table>
 
-## Orientadores
+## Orientadores 🎓
 
 <table>
    <td align="center">
@@ -128,7 +128,7 @@ O Meowly oferece uma interface amigável para que os usuários possam:
 </table>
 
 
-## Referências
+## Referências 📚
   O Hyppet é um aplicativo ja existente que permite postagens de cachorros para adoção. Utilizamos ele de referência com o objetivo de o aprimorar criando apenas um app de adoção e patrocinio de gatos.
 
 
