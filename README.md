@@ -44,17 +44,22 @@ O Meowly oferece uma interface amigável para que os usuários possam:
    • Dicas de cuidados : Acesse uma página com dicas de cuidados para garantir o bem-estar dos animais de estimação adotados.
 
 
-## Tecnologias utilizadas
+## Tecnologias utilizadas 💻
 
    ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
    ![CSS](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white).
+   <br>
+    ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+   ![Gimp](https://img.shields.io/badge/Gimp-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF)
+   <br>
    ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
    ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+   <br>
    ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
    ![Microsoft Word](https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white)
    ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
-   ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-   ![Gimp](https://img.shields.io/badge/Gimp-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF)
+   <br>
+  
   
 
 
@@ -106,7 +111,7 @@ O Meowly oferece uma interface amigável para que os usuários possam:
 
 ## Orientadores 🎓
 
-<table>
+<table >
    <td align="center">
       <a href= "https://github.com/NadLuz?tab=following">
          <img src="https://avatars.githubusercontent.com/u/108203736?v=4" width="100px;" alt="Foto de Nadja Luz  no GITHUB"/>
@@ -116,7 +121,7 @@ O Meowly oferece uma interface amigável para que os usuários possam:
          </sub>
       </a>
    </td>
-     <td>
+     <td align="center">
       <a href= "https://github.com/raulportolopes">
          <img src="https://avatars.githubusercontent.com/u/119448571?v=4" width="100px;" alt="Foto de Raul Lopes  no GITHUB"/>
          <br>
