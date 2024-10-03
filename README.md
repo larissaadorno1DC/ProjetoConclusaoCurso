@@ -64,44 +64,43 @@ O Meowly oferece uma interface amigável para que os usuários possam:
     <td align="center">
       <a href="https://github.com/rafaribessi">
         <img src="https://avatars.githubusercontent.com/u/131973673?v=4" width="100px;" alt="Foto  no GitHub"/><br>
-        <sub>
-          <b>Rafaella Ribessi</b>
-        </sub>
+           <sub>
+             <b>Rafaella Ribessi</b>
+           </sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/isabellyz">
         <img src="https://avatars.githubusercontent.com/u/131974028?v=4" width="100px;" alt="Foto de Isabelly no GITHUB"/><br>
-        <sub>
-          <b>Isabelly Andrade</b>
-        </sub>
+           <sub>
+             <b>Isabelly Andrade</b>
+           </sub>
       </a>
     </td>
+   <td align="center">
+         <a href="https://github.com/edu-smarques">
+           <img src="https://avatars.githubusercontent.com/u/131973956?v=4" width="100px;" alt="Foto de Eduardo Marques no GITHUB"/><br>
+              <sub>
+                <b>Eduardo Marques</b>
+              </sub>
+         </a>
+    </td>
+    <td align="center">
+         <a href="https://github.com/anagabichiliano">
+              <img src="https://avatars.githubusercontent.com/u/177878367?v=4" width="100px;" alt="Foto de Ana Gabriela no GITHUB"/><br>
+                 <sub>
+                   <b>Ana Gabriela</b>
+                 </sub>
+         </a>
+     </td>
       <td align="center">
-      <a href="https://github.com/edu-smarques">
-        <img src="https://avatars.githubusercontent.com/u/131973956?v=4" width="100px;" alt="Foto de Eduardo Marques no GITHUB"/><br>
-        <sub>
-          <b>Eduardo Marques</b>
-        </sub>
-      </a>
-    </td>
-       <td align="center">
-      <a href="https://github.com/anagabichiliano">
-        <img src="https://avatars.githubusercontent.com/u/177878367?v=4" width="100px;" alt="Foto de Ana Gabriela no GITHUB"/><br>
-        <sub>
-          <b>Ana Gabriela</b>
-        </sub>
-      </a>
-    </td>
-       <td align="center">
-      <a href="https://github.com/JuliaCampo">
-        <img src="  <td align="center">
-        <img src="https://avatars.githubusercontent.com/u/131974301?v=4" width="100px;" alt="Foto de Julia Campos  no GITHUB"/><br>
-        <sub>
-          <b>Julia Campos</b>
-        </sub>
-      </a>
-    </td>
+         <a href="https://github.com/JuliaCampo">
+           <img src="https://avatars.githubusercontent.com/u/131974301?v=4" width="100px;" alt="Foto de Julia Campos  no GITHUB"/><br>
+              <sub>
+                <b>Julia Campos</b>
+              </sub>
+         </a>
+   </td>
 </table>
 
 ## Orientadores
