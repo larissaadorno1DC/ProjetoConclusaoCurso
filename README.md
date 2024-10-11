@@ -43,6 +43,9 @@ O Meowly oferece uma interface amigável para que os usuários possam:
    
    • Dicas de cuidados : Acesse uma página com dicas de cuidados para garantir o bem-estar dos animais de estimação adotados.
 
+   • Formulário: Preencha a informações caso esteja interessado em adotar um gato.
+
+   
 
 ## Tecnologias utilizadas 💻
 
