@@ -1,0 +1,291 @@
+LISTAGEM ANTIGA - EDUARDO
+
+<div class="container d-flex mb-5">
+  <div class="row row-cols-2 row-cols-lg-4 g-3 justify-content-center">
+    <div class="col">
+      <div class="card border-0 shadow-sm text-light bg-secondary">
+        <div class="img-card"><img src="img/gato01.jpeg" class="card-img-top" alt="Gato malhado"></div>
+        <div class="card-body text-center">
+          <h5 class="fs-6 card-title fw-semibold">pipi</h5>
+          <h5 class="fs-6 card-title card-subtitle-secondary">Vira-lata</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border-0 shadow-sm text-light bg-secondary">
+        <div class="img-card"><img src="img/gato01.jpeg" class="card-img-top" alt="Gato malhado"></div>
+        <div class="card-body text-center">
+          <h5 class="fs-6 card-title fw-semibold">pisbo</h5>
+          <h5 class="fs-6 card-title card-subtitle-secondary">Vira-lata</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border-0 shadow-sm text-light bg-secondary">
+        <div class="img-card"><img src="img/gato01.jpeg" class="card-img-top" alt="Gato malhado"></div>
+        <div class="card-body text-center">
+          <h5 class="fs-6 card-title fw-semibold">chiquinho</h5>
+          <h5 class="fs-6 card-title card-subtitle-secondary">Vira-lata</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border-0 shadow-sm text-light bg-secondary">
+        <div class="img-card"><img src="img/gato01.jpeg" class="card-img-top" alt="Gato malhado"></div>
+        <div class="card-body text-center">
+          <h5 class="fs-6 card-title fw-semibold">Tigrinho</h5>
+          <h5 class="fs-6 card-title card-subtitle-secondary">Vira-lata</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  </a>
+</div>
+
+---------------------- LISTAGEM DUPLICADA CONECTADA COM bd 
+<?php
+include_once("templates/header.php");
+
+// Conexão com o banco de dados
+$host = 'localhost'; // ou o endereço do seu servidor
+$dbname = 'meowly';
+$username = 'root';  // seu usuário de banco de dados
+$password = '';      // sua senha de banco de dados
+
+try {
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    echo "Erro de conexão: " . $e->getMessage();
+    exit;
+}
+
+$stmt = $pdo->query("SELECT id, nome, imagem FROM gatos");
+$gatos = $stmt->fetchAll();
+?>
+
+<style>
+  a{
+    text-decoration: none;
+  }
+</style>
+
+<title>Meowly - Nossos bichinhos</title>
+
+
+<div class="d-flex justify-content-center my-5">
+  <p class="h2 fw-bold text-primary">Encontre seu novo amigo!</p>
+</div>
+<div class="container d-flex mb-5">
+  <div class="row row-cols-2 row-cols-lg-4 g-3 justify-content-center">
+    <?php foreach ($gatos as $gato): ?>
+          <div class="col">
+              <a href="cat_profile.php?id=1">
+                  <div class="card border-0 shadow-sm text-light bg-secondary">
+                      <div class="img-card">
+                          <!-- Exibe a imagem do gato -->
+                          <img src="img/gato29.jpeg" class="card-img-top" alt="Imagem do gato">
+                      </div>
+                      <div class="card-body text-center">
+                          <!-- Exibe o nome do gato -->
+                          <h5 class="fs-6 card-title fw-semibold"> Nilo </h5>
+                          <h5 class="fs-6 card-title card-subtitle-secondary">Vira-lata</h5>
+                      </div>
+                  </div>
+              </a>
+          </div>
+      <?php endforeach; ?>
+
+    <?php foreach ($gatos as $gato): ?>
+          <div class="col">
+              <a href="cat_profile.php?id=2">
+                  <div class="card border-0 shadow-sm text-light bg-secondary">
+                      <div class="img-card">
+                          <!-- Exibe a imagem do gato -->
+                          <img src="img/gato20.jpeg" class="card-img-top" alt="Imagem do gato">
+                      </div>
+                      <div class="card-body text-center">
+                          <!-- Exibe o nome do gato -->
+                          <h5 class="fs-6 card-title fw-semibold"> Ônix </h5>
+                          <h5 class="fs-6 card-title card-subtitle-secondary">Siamês</h5>
+                      </div>
+                  </div>
+              </a>
+          </div>
+      <?php endforeach; ?>
+
+    <?php foreach ($gatos as $gato): ?>
+          <div class="col">
+              <a href="cat_profile.php?id=3">
+                  <div class="card border-0 shadow-sm text-light bg-secondary">
+                      <div class="img-card">
+                          <!-- Exibe a imagem do gato -->
+                          <img src="img/gato18.jpeg" class="card-img-top" alt="Imagem do gato">
+                      </div>
+                      <div class="card-body text-center">
+                          <!-- Exibe o nome do gato -->
+                          <h5 class="fs-6 card-title fw-semibold"> Turim </h5>
+                          <h5 class="fs-6 card-title card-subtitle-secondary">Bombaim </h5>
+                      </div>
+                  </div>
+              </a>
+          </div>
+      <?php endforeach; ?>
+
+      <?php foreach ($gatos as $gato): ?>
+          <div class="col">
+              <a href="cat_profile.php?id=4">
+                  <div class="card border-0 shadow-sm text-light bg-secondary">
+                      <div class="img-card">
+                          <!-- Exibe a imagem do gato -->
+                          <img src="img/gato14.jpeg" class="card-img-top" alt="Imagem do gato">
+                      </div>
+                      <div class="card-body text-center">
+                          <!-- Exibe o nome do gato -->
+                          <h5 class="fs-6 card-title fw-semibold"> Tikinho </h5>
+                          <h5 class="fs-6 card-title card-subtitle-secondary"> Malhado</h5>
+                      </div>
+                  </div>
+              </a>
+          </div>
+      <?php endforeach; ?>
+
+      <?php foreach ($gatos as $gato): ?>
+          <div class="col">
+              <a href="cat_profile.php?id=5">
+                  <div class="card border-0 shadow-sm text-light bg-secondary">
+                      <div class="img-card">
+                          <!-- Exibe a imagem do gato -->
+                          <img src="img/gato15.jpeg" class="card-img-top" alt="Imagem do gato">
+                      </div>
+                      <div class="card-body text-center">
+                          <!-- Exibe o nome do gato -->
+                          <h5 class="fs-6 card-title fw-semibold"> Mimo </h5>
+                          <h5 class="fs-6 card-title card-subtitle-secondary"> Vira lata</h5>
+                      </div>
+                  </div>
+              </a>
+          </div>
+      <?php endforeach; ?>
+
+      <?php foreach ($gatos as $gato): ?>
+          <div class="col">
+              <a href="cat_profile.php?id=6">
+                  <div class="card border-0 shadow-sm text-light bg-secondary">
+                      <div class="img-card">
+                          <!-- Exibe a imagem do gato -->
+                          <img src="img/gato12.jpeg" class="card-img-top" alt="Imagem do gato">
+                      </div>
+                      <div class="card-body text-center">
+                          <!-- Exibe o nome do gato -->
+                          <h5 class="fs-6 card-title fw-semibold"> Liz </h5>
+                          <h5 class="fs-6 card-title card-subtitle-secondary"> Siamês</h5>
+                      </div>
+                  </div>
+              </a>
+          </div>
+      <?php endforeach; ?>
+
+      <?php foreach ($gatos as $gato): ?>
+          <div class="col">
+              <a href="cat_profile.php?id=7">
+                  <div class="card border-0 shadow-sm text-light bg-secondary">
+                      <div class="img-card">
+                          <!-- Exibe a imagem do gato -->
+                          <img src="img/gato10.jpeg" class="card-img-top" alt="Imagem do gato">
+                      </div>
+                      <div class="card-body text-center">
+                          <!-- Exibe o nome do gato -->
+                          <h5 class="fs-6 card-title fw-semibold"> Sevilha </h5>
+                          <h5 class="fs-6 card-title card-subtitle-secondary"> Bombaim </h5>
+                      </div>
+                  </div>
+              </a>
+          </div>
+      <?php endforeach; ?>
+
+      <?php foreach ($gatos as $gato): ?>
+          <div class="col">
+              <a href="cat_profile.php?id=8">
+                  <div class="card border-0 shadow-sm text-light bg-secondary">
+                      <div class="img-card">
+                          <!-- Exibe a imagem do gato -->
+                          <img src="img/gato16.jpeg" class="card-img-top" alt="Imagem do gato">
+                      </div>
+                      <div class="card-body text-center">
+                          <!-- Exibe o nome do gato -->
+                          <h5 class="fs-6 card-title fw-semibold"> Tedy </h5>
+                          <h5 class="fs-6 card-title card-subtitle-secondary"> Frajola </h5>
+                      </div>
+                  </div>
+              </a>
+          </div>
+      <?php endforeach; ?>  
+  </div>
+</div>
+
+<div class="d-flex justify-content-center my-5">
+  <p class="h2 fw-bold text-primary">Não tem espaço? Patrocine!</p>
+</div>
+
+<div class="container d-flex mb-5">
+  <div class="row row-cols-2 row-cols-lg-4 g-3 justify-content-center">
+    <div class="col">
+      <div class="card border-0 shadow-sm text-light bg-primary">
+        <div class="img-card"><img src="img/gato01.jpeg" class="card-img-top" alt="Gato malhado"></div>
+        <div class="card-body text-center">
+          <h5 class="fs-6 card-title fw-semibold">pipi</h5>
+          <h5 class="fs-6 card-title card-subtitle-secondary">Vira-lata</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border-0 shadow-sm text-light bg-primary">
+        <div class="img-card"><img src="img/gato01.jpeg" class="card-img-top" alt="Gato malhado"></div>
+        <div class="card-body text-center">
+          <h5 class="fs-6 card-title fw-semibold">pisbo</h5>
+          <h5 class="fs-6 card-title card-subtitle-secondary">Vira-lata</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border-0 shadow-sm text-light bg-primary">
+        <div class="img-card"><img src="img/gato01.jpeg" class="card-img-top" alt="Gato malhado"></div>
+        <div class="card-body text-center">
+          <h5 class="fs-6 card-title fw-semibold">chiquinho</h5>
+          <h5 class="fs-6 card-title card-subtitle-secondary">Vira-lata</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border-0 shadow-sm text-light bg-primary">
+        <div class="img-card"><img src="img/gato01.jpeg" class="card-img-top" alt="Gato malhado"></div>
+        <div class="card-body text-center">
+          <h5 class="fs-6 card-title fw-semibold">Tigrinho</h5>
+          <h5 class="fs-6 card-title card-subtitle-secondary">Vira-lata</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<?php
+include_once("templates/footer.php");
+?>
+
+--------------- IMAGEM DE FUNDO BACKGROUND
+/*body {
+  background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255,255,255,.5) ), url('../img/background.jpeg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+  */
+
+body {
+  background-position: bottom center; /* Posiciona a imagem na parte inferior e centraliza */
+  background-repeat: no-repeat;      /* Impede a repetição da imagem */
+  background-attachment: fixed;      /* Faz com que a imagem fique fixa durante o scroll */
+  background-size: cover;           /* Faz a imagem cobrir toda a área disponível */
+  min-height: 100vh;                 /* Garante que a página ocupe toda a altura da janela */
+}

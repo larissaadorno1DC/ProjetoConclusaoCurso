@@ -1,0 +1,423 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* style geral */
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+/* Style header */
+
+
+/* Style cadastro */
+.container-cadastro{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.content-box-cad{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-box-cad .form-box-cad{
+  width: 50%;
+}
+
+.content-box-cad .form-box-cad .ul-cad{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-box-cad .form-box-cad .ul-cad li{
+  list-style: none;
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 7px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-box-cad .ul li i{
+  width: 40px;
+}
+
+.content-box-cad .form-box-cad .ul li:hover{
+  background:  #75dcc1;
+}
+
+/* Style login */
+.container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.login-box {
+  display: flex;
+  background-color: #eca946;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+}
+
+.form-container {
+  flex: 1;
+  margin-right: 20px;
+  text-align: center; 
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"] {
+  width: 25vh;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+} 
+
+.login-box button {
+  background-color: #047c5d;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 15px;
+  display: block;
+  margin: 20px auto;
+}
+
+.gato01 {
+  flex: 0 0 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gato01 img {
+  max-width: 300px;
+  height: 300px;
+  
+}
+
+h2 {
+  color: #7c4a04;
+}
+
+/* Style footer */
+
+/* Garante que o footer fique no final da página */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
+
+footer {
+  background-color: #75DCC1;
+  color: #fff;
+  margin-top: auto; /* Garante que o footer fique na parte inferior */
+}
+
+.mftr {
+  width: 100%;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo_footer {
+  height: 3rem;
+}
+
+
+/* home */
+
+.gatos-carrossel{
+  height: 55vh;
+  width: 85vw;
+}
+
+.gatos-carrossel-item img {
+  height: 100%;
+  object-fit: cover; 
+}
+
+.text-primary{
+  color: #eca946 !important;
+}
+
+.bg-primary{
+  background-color: #eca946 !important;
+}
+
+.bg-secondary{
+  background-color: #75DCC1 !important;
+}
+
+.img-cuidados{
+  height: 20rem;
+  overflow: hidden;
+  width:100%;
+  border-radius: 10px;
+}
+
+.img-cuidados img{
+  width: 100%;
+}
+
+.img-card{
+  height: 12rem;
+  overflow: hidden;
+}
+
+.img-card img{
+  min-height: 100%;
+  object-fit: cover;
+}
+
+/*________________CUIDADOS GATO________________________*/
+.img-gatocu{
+  float: right;
+  width: 20%;
+  margin-right: 30px;
+}
+
+.frase-cuidado{
+  color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* perfil gato */
+.personality_icon{
+  font-size: 2.5rem;
+}
+
+.personality_title{
+  font-size: .65rem;
+}
+
+.profile-maincontainer{
+  background-color: #a3e9d6;
+}
+
+/*_________FORMULARIO____________________*/
+/*.container04 {
+    background-color: rgb(172, 245, 220);
+    height: 1110px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(20, 95, 70);
+}
+
+.pri{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(28, 134, 134);
+}
+h3{
+    padding: 10px;
+}
+h4{
+    padding: 10px;
+}
+.label1{
+padding: 10px;
+border-top-width: 10px;
+
+}
+
+
+
+
+/*cuidados*/
+
+/*.container1 img {
+  padding-right: 20px;
+  width: 400px;
+  height: 300px;
+}
+
+.text-container {
+  max-width: 600px;
+}
+
+.texto1 {
+  color: #ECA946;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.texto2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+  line-height: 1.5;
+  
+}
+
+/* container2 */
+/*
+.container2 {
+  align-items: center;
+  justify-content: center;
+  background-color: #75DCC1;
+  padding: 20px;
+  width: 100%;
+  height: 100%; 
+}
+
+.container2 img {
+  width: 400px;
+  height: 300px;
+  margin-left: 20px;
+  
+}
+
+.text-container2 {
+  max-width: 600px;
+  text-align: left;
+}
+
+.texto3 {
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.texto4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+*/
+
+/* container 3 */
+/*
+.container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  
+  
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container3 img {
+  width: 400px;
+  height: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+.texto6 {
+  color: #ECA946;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+} 
+
+ .texto7, .texto9, .texto11 {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #060606;
+  margin-top: 10px;
+  line-height: 1.5;
+  text-align: justify;
+  
+} 
+*/
+
+/* Container 4 */
+
+/*
+.container4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-container4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container4 img {
+  width: 450px;
+  height: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+.texto8 {
+  color: #ECA946;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+*/
+
+
