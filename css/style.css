@@ -51,7 +51,7 @@
 }
 
 .content-box-cad .form-box-cad .ul li:hover{
-  background:  #75dcc1;
+  background: #47a88e;
 }
 
 /* Style login */
@@ -131,7 +131,7 @@ body {
 }
 
 footer {
-  background-color: #75DCC1;
+  background-color: #47a88e;
   color: #fff;
   margin-top: auto; /* Garante que o footer fique na parte inferior */
 }
@@ -171,7 +171,7 @@ footer a {
 }
 
 .bg-secondary{
-  background-color: #75DCC1 !important;
+  background-color: #45c5a4 !important;
 }
 
 .img-cuidados{
@@ -420,4 +420,35 @@ border-top-width: 10px;
 }
 */
 
+.text-secondary{
+  color: #047c5d !important;
+}
 
+.btn-primary{
+  color: #ffffff !important;
+  background-color: #047c5d !important;
+  border-color: #047c5d !important;
+}
+
+.btn-primary:hover{
+  color: #ffffff !important;
+  background-color: #08a57e !important;
+  border-color: #08a57e !important;
+}
+
+.btn-primary:focus{
+  box-shadow: none !important;
+  background-color: #08a57e !important;
+  border-color: #08a57e !important;
+}
+
+.btn-primary:active{
+  box-shadow: none !important;
+  background-color: #08a57e !important;
+  border-color: #08a57e !important;
+}
+
+.form-control:focus{
+  box-shadow: none !important;
+  border-color: rgb(175, 175, 175);
+}

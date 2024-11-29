@@ -45,7 +45,7 @@ $gatos = $stmt->fetchAll();
           <a href="cat_profile.php?id=<?php echo $gato['id']; ?>">
               <div class="card border-0 shadow-sm text-light bg-secondary">
                   <div class="img-card">
-                      <img src="http://172.28.176.1/ProjetoConclusaoCurso/<?php echo htmlspecialchars($gato['imagem']); ?>" class="card-img-top" alt="Imagem do gato">
+                      <img src="http://192.168.137.1/ProjetoConclusaoCurso/<?php echo htmlspecialchars($gato['imagem']); ?>" class="card-img-top" alt="Imagem do gato">
                   </div>
                   <div class="card-body text-center">
                       <h5 class="fs-6 card-title fw-semibold"><?php echo htmlspecialchars($gato['nome']); ?></h5>

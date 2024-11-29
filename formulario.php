@@ -2,6 +2,7 @@
 session_start();
 include_once("templates/header.php");
 ?>
+
 <title>Meowly - Formulario Adoção </title>
 
 
@@ -52,7 +53,7 @@ include_once("templates/header.php");
 
 <div class="container mt-5">
     <h2 class="text-center text-uppercase mb-4">Formulário</h2>
-    <form>
+    <form action="processa_formulario.php" method="POST" id="formulario">
         <div class="mb-3">
             <label for="name" class="form-label">Nome Completo</label>
             <input type="text" class="form-control" id="name" placeholder="Digite seu nome"required>
@@ -125,19 +126,19 @@ include_once("templates/header.php");
             </div>
 
             <div class="col-md-4">
-                <label for="nif" class="form-label"> Cidade </label>
+                <label for="cidade" class="form-label"> Cidade </label>
                 <input type="text" class="form-control" id="cidade" placeholder="Digite sua cidade" required>
             </div>
 
             <div class="col-md-4 mb-4">
-                <label for="age" class="form-label"> CEP </label>
+                <label for="CEP" class="form-label"> CEP </label>
                 <input type="number" class="form-control" id="cep" placeholder="Digite seu CEP" required>
             </div>
         </div>
 
         <hr class="barra custom-hr"> 
 
-        <h2 class="mt-4 mb-4 text-center">Informações sobre o lar</h2>
+        <h2 class="mt-4 mb-4 text-center"> * Informações sobre o lar </h2>
 
         <div class="container d-flex justify-content-center align-items-center">
             <div class="col-12 col-md-8">
@@ -243,7 +244,7 @@ include_once("templates/header.php");
 
         <hr class="barra custom-hr"> 
 
-        <h2 class="text-center mb-4">Condições</h2> 
+        <h2 class="text-center mb-4"> * Condições</h2> 
         <div class="container d-flex justify-content-center align-items-center;">
             <div class="col-12 col-md-8">
                 <div class="row justify-content-center">
@@ -303,22 +304,53 @@ include_once("templates/header.php");
                 </div>
             </div>
         </div>
-
     </form>
 </div>
 
-
 <div class="form-check d-flex justify-content-center align-items-center">
-    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked required>
-    <label class="form-check-label ms-2" for="flexCheckChecked">
-        Ao selecionar a opção ENVIAR FORMULÁRIO, concordo com os Termos de Uso e Política de Privacidade
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+    <label class="form-check-label ms-2">
+        Ao selecionar a opção ENVIAR FORMULÁRIO, você estará concordando com os Termos de Uso e Política de Privacidade
     </label>
 </div>
 
 <div class="modal-footer d-flex justify-content-center">
     <a href="listagem.php"><button type="button" class="btn btn-cor-fundo m-5" data-bs-dismiss="modal">Voltar</button></a>
-    <button type="button" class="btn btn-cor-fundo" id="btn-enviar" data-bs-toggle="modal" data-bs-target="#confirmarModal">Enviar relatório</button>
+    <button type="button" class="btn btn-cor-fundo" id="btn-enviar" onclick="enviarRel()">Enviar relatório</button>
 </div>
+
+<script>
+    function enviarRel() {
+        // validar se todos os campos obrigatórios estão preenchidos, se necessário
+        var form = document.getElementById('formulario');
+        
+        // ve o formulário estiver válido, submete o formulário
+        if (form.checkValidity()) {
+            form.submit(); // envia o formulário
+        } else {
+            alert("Por favor, preencha todos os campos obrigatórios.");
+        }
+    }
+</script>
+
+<!-- Modal de erro -->
+<div class="modal fade" id="erroModal" tabindex="-1" aria-labelledby="erroModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center" id="erroModalLabel">Parece que você não tem condições de adotar o gato</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center align-items-center">
+                <p class="text-center">Você respondeu "Não" a uma das condições. Não podemos prosseguir com a adoção nesse momento.</p>
+            </div>
+            <div class="modal-footer d-flex justify-content-center mb-2">
+                <button type="button" class="btn btn-cor-fundo" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- Modal de confirmação após envio -->
 <div class="modal fade" id="confirmarModal" tabindex="-1" aria-labelledby="confirmarModalLabel" aria-hidden="true">
@@ -342,9 +374,104 @@ include_once("templates/header.php");
     </div>
   </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+$(document).ready(function() {
+    // Quando o formulário for enviado
+    $("#formulario").on("submit", function(event) {
+        event.preventDefault(); // Evitar o envio tradicional do formulário
+        
+        // Coletar os dados do formulário
+        var formData = $(this).serialize(); 
 
+        // Enviar os dados via AJAX
+        $.ajax({
+            url: 'processa_formulario.php', // O arquivo PHP que processa o envio
+            type: 'POST',
+            data: formData,
+            success: function(response) {
+                // Parsea a resposta JSON
+                var result = JSON.parse(response);
+                
+                // Verifica se o e-mail foi enviado com sucesso
+                if (result.status == "success") {
+                    // Mostrar o modal de confirmação
+                    var myModal = new bootstrap.Modal(document.getElementById('confirmarModal'));
+                    myModal.show();
+                } else if (result.status == "error") {
+                    // Mostrar o modal de erro
+                    var myModal = new bootstrap.Modal(document.getElementById('erroModal'));
+                    myModal.show();
+                } else {
+                    alert("Algo deu errado. Tente novamente.");
+                }
+            },
+            error: function() {
+                alert("Houve um erro ao enviar o formulário. Tente novamente.");
+            }
+        });
+    });
+});
+</script>
+
+<script defer>
+    // Seleciona os elementos necessários
+    const checkbox = document.getElementById('flexCheckDefault');  // checkbox de termos
+    const btnEnviar = document.getElementById('btn-enviar');      // botão de enviar
+    const modalErro = new bootstrap.Modal(document.getElementById('erroModal')); // modal de erro
+    const modalSucesso = new bootstrap.Modal(document.getElementById('confirmarModal')); // modal de sucesso
+
+    // funcao
+    function verificarRespostas() {
+        const respostas = [
+            document.querySelector('input[name="vistoriaCasa"]:checked'),
+            document.querySelector('input[name="devolverGatinho"]:checked'),
+            document.querySelector('input[name="repassarGatinho"]:checked'),
+            document.querySelector('input[name="contratoAdocao"]:checked')
+        ];
+
+        for (let resposta of respostas) {
+            console.log(resposta);
+            if (!resposta) {
+                return true;
+            }
+            //nn tiver resposta
+
+            if (resposta.value == 'nao' ) {
+                return true;  
+            }
+            // se a resposta for "não", vai retornar true
+        }
+        return false;  
+    }
+
+    // funcao do checkbox
+    function toggleButton() {
+        btnEnviar.disabled = !checkbox.checked; // aqui habilita ou desabilita o botão dependendo do checkbox
+    }
+
+    checkbox.addEventListener('change', toggleButton);
+
+    // função para enviar o formulário
+    function submit () {
+        // nao é pra mostrar os dois
+        modalSucesso.hide();
+        modalErro.hide();   
+
+        // se tem condições nao
+        if (verificarRespostas()) {
+            // se alguma resposta for "não", exibe o modal de erro
+            modalErro.show();
+        } else {
+            // modal de sucesso
+            modalSucesso.show();
+        }
+    };
+
+    toggleButton();
+</script>
 
 <?php
 include_once("templates/footer.php");
 ?>
-

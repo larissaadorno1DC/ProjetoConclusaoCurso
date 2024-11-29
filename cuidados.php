@@ -151,7 +151,7 @@
         </div>
 
         <div class="col-md-6 text-container mt-4 p-2 text-center">
-            <h2 class="text-center custom-color mb-4"">COMO CUIDAR DO SEU FELINO? </h2>
+            <h2 class="text-center custom-color mb-4">COMO CUIDAR DO SEU FELINO? </h2>
             <p class=" h4 mb-4 text-center">
                 ㅤㅤ Adotou um novo animalzinho e não sabe como sua casa deve estar preparada para recebê-lo? Para esse momento tão especial separamos algumas dicas para deixar a convivência entre a família e o novo membro ainda mais feliz, harmoniosa e saudável.
                 <p>
@@ -163,7 +163,7 @@
 
 </div>
 
-<div class="container container2 d-flex align-items-center justify-content-center mb-3">
+<div class="container container2 d-flex align-items-center justify-content-center mb-3 bg-secondary">
     <div class="row text-center">
         <div class="col-8 pt-5 text-white">
             <h2 class="text-white"> Higiene bucal em dia é sinônimo de saúde!! </h3>

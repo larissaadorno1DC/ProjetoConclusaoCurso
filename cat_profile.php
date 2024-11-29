@@ -88,7 +88,7 @@ if (!$gato) {
 <div class="mt-4 container-fluid d-flex align-items-center justify-content-center profile-maincontainer p-3">
     <div class="col-12 col-md-8">
         <div class="d-flex justify-content-center align-items-center">
-            <img src="http://172.28.176.1/ProjetoConclusaoCurso/<?php echo htmlspecialchars($gato['imagem']); ?>" class="img-fluid card-img-top" alt="Gato malhado">
+            <img src="http://192.168.137.1/ProjetoConclusaoCurso/<?php echo htmlspecialchars($gato['imagem']); ?>" class="img-fluid card-img-top" alt="Gato malhado">
         </div>
     </div>
 </div>
@@ -111,7 +111,7 @@ if (!$gato) {
     
     <div class="d-flex flex-column flex-sm-row justify-content-center gap-4 btnAdot mb-5">
         <button class="btn-cor-fundo custom-color p-3" data-bs-toggle="modal" data-bs-target="#adotarModal">Adotar</button>
-        <button class="btn-cor-fundo custom-color p-3" data-bs-toggle="modal" data-bs-target="#patrocinarModal">Patrocinar</button>
+        <button class="btn-cor-fundo custom-color p-3" data-bs-toggle="modal" data-bs-target="#patrocinarModal">Apadrinhar</button>
     </div>
 </div>
 
@@ -143,7 +143,7 @@ if (!$gato) {
     <div class="modal-dialog modal-lg d-flex justify-content-center">
         <div class="modal-content">
             <div class="modal-header">
-                <h2 class="modal-title text-uppercase text-center w-100" id="adotarModalLabel">Informações sobre o Patrocínio</h2>
+                <h2 class="modal-title text-uppercase text-center w-100" id="adotarModalLabel">Informações sobre apadrinhar</h2>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">

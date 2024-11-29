@@ -9,13 +9,13 @@ include_once("templates/header.php");
   <div id="carouselExampleAutoplaying" class="carousel slide gatos-carrossel" data-bs-ride="carousel" data-bs-touch="false">
     <div class="carousel-inner gatos-carrossel">
       <div class="carousel-item active gatos-carrossel-item h-100">
-        <img style="border-radius: 10px;" src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="Gato laranja">
+        <img style="border-radius: 10px;" src="img/banner.jpeg" class="d-block w-100" alt="Banner01">
       </div>
       <div class="carousel-item gatos-carrossel-item h-100">
-        <img style="border-radius: 10px;" src="https://images.pexels.com/photos/1404819/pexels-photo-1404819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="Gatinho cinza">
+        <img style="border-radius: 10px;" src="img/banner02.jpeg" class="d-block w-100" alt="Gatinho cinza">
       </div>
       <div class="carousel-item gatos-carrossel-item h-100">
-        <img style="border-radius: 10px;" src="https://images.pexels.com/photos/2558605/pexels-photo-2558605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="Gato malhado">
+        <img style="border-radius: 10px;" src="img/banner03.jpeg" class="d-block w-100" alt="Gato malhado">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

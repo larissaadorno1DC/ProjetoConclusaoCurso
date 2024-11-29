@@ -12,7 +12,7 @@ html, body {
 }
 
 footer {
-  background-color: #75DCC1;
+  background-color: #45c5a4;
   color: #fff;
   padding: 20px 0;
   width: 100%;
@@ -77,20 +77,20 @@ footer .copyright {
     <div class="mftr d-flex container justify-content-center">
         <div class="row mt-4">
             <div class="col text-center align-self-center">
-                <div class="row"><a href="index.php">Home</a></div>
-                <div class="row"><a href="listagem.php">Quero adotar!</a></div>
-                <div class="row"><a href="cuidados.php">Cuidados com o pet</a></div>
+                <div class="row"><a class="fw-bold" href="index.php">Home</a></div>
+                <div class="row"><a class="fw-bold" href="listagem.php">Quero adotar!</a></div>
+                <div class="row"><a class="fw-bold" href="cuidados.php">Cuidados com o pet</a></div>
             </div>
             <div class="col-sm d-flex align-items-center justify-content-center my-3">
                 <a href="perfil.php"> <img class="logo_footer" src="img/logotipo_branco.png" alt="Logotipo branco"> </a>
             </div>
             <div class="col text-center align-self-center contact-info">
-                <p class="h4 fw-semibold">CONTATO</p>
-                <p>meowly@gmail.com</p>
-                <p>(99) 99999-9999</p>
+                <p class="h4 fw-bold">CONTATO</p>
+                <p class="fw-bold">meowly@gmail.com</p>
+                <p class="fw-bold">(99) 99999-9999</p>
             </div>
             <div class="row copyright text-center align-self-end">
-                <p class="fs-6 align-self-end ">&copy; 2024. Meowly. Todos os direitos reservados.</p>
+                <p class="fs-6 align-self-end fw-bold">&copy; 2024. Meowly. Todos os direitos reservados.</p>
             </div>
         </div>
     </div>

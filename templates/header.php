@@ -22,7 +22,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/ProjetoConclusaoCurso/config/url.php"
         }
 
         .custom-header {
-            background-color: #75dcc1;
+            background-color: #45c5a4;
             padding: 10px 0;
             width: 100% important!;
         }
@@ -58,48 +58,48 @@ require_once($_SERVER['DOCUMENT_ROOT'] . "/ProjetoConclusaoCurso/config/url.php"
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav d-flex flex-column flex-md-row">
                     <li class="nav-item">
-                        <a class="nav-link mx-2" href="index.php">Home</a>
+                        <a class="nav-link mx-2 fw-bold" href="index.php">Home</a>
                     </li>
                     <li class="nav-item separator">
                         <span class="nav-link mx-2">|</span>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-2" href="listagem.php">Nossos bichinhos</a>
+                        <a class="nav-link mx-2 fw-bold" href="listagem.php">Nossos bichinhos</a>
                     </li>
                     <li class="nav-item separator">
                         <span class="nav-link mx-2">|</span>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-2" href="./cuidados.php">Cuidados com o pet</a>
+                        <a class="nav-link mx-2 fw-bold" href="./cuidados.php">Cuidados com o pet</a>
                     </li>
                     <li class="nav-item separator">
                         <span class="nav-link mx-2">|</span>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-2" href="./sobre.php">Sobre</a>
+                        <a class="nav-link mx-2 fw-bold" href="./sobre.php">Sobre</a>
                     </li>
                     <li class="nav-item separator">
                         <span class="nav-link mx-2">|</span>
                     </li>
                     <?php if (isset($_SESSION['email'])): ?>
                         <li class="nav-item">
-                            <a class="nav-link mx-2" href="./perfil.php">Perfil</a>
+                            <a class="nav-link mx-2 fw-bold" href="./perfil.php">Perfil</a>
                         </li>
                         <li class="nav-item separator">
                             <span class="nav-link mx-2">|</span>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2" href="./logout.php">Sair</a>
+                            <a class="nav-link mx-2 fw-bold" href="./logout.php">Sair</a>
                         </li>
                     <?php else: ?>
                         <li class="nav-item">
-                            <a class="nav-link mx-2" href="./login.php">Login</a>
+                            <a class="nav-link mx-2 fw-bold" href="./login.php">Login</a>
                         </li>
                         <li class="nav-item separator">
                             <span class="nav-link mx-2">|</span>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-2" href="./cadastro.php">Cadastro</a>
+                            <a class="nav-link mx-2 fw-bold" href="./cadastro.php">Cadastro</a>
                         </li>
                     <?php endif; ?>
                 </ul>
